@@ -1,4 +1,4 @@
-require_relative '/Users/alex/workspace-3081/sa9-act2/Problem2/TodoList'
+require_relative '../lib/TodoList.rb'
 RSpec.describe TodoList do
   let(:todo_list) { TodoList.new }
   let(:todo) { "Buy milk" }

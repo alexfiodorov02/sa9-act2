@@ -1,4 +1,4 @@
-require_relative '/Users/alex/workspace-3081/sa9-act2/Problem5/TemperatureConverter'
+require_relative '../lib/temperature.rb'
 RSpec.describe TemperatureConverter do
   describe ".celsius_to_fahrenheit" do
     it "correctly converts 0°C to 32°F" do

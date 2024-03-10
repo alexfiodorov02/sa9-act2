@@ -1,4 +1,4 @@
-require_relative '/Users/alex/workspace-3081/sa9-act2/Problem1/user'
+require_relative '../lib/User.rb'
 
 RSpec.describe User do
   let(:user) { User.new('test_user') }

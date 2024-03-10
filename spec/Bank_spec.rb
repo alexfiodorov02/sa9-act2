@@ -1,4 +1,4 @@
-require_relative '/Users/alex/workspace-3081/sa9-act2/Problem4/BankAccount'
+require_relative '../lib/Bank.rb'
 RSpec.describe BankAccount do
   let(:account) { BankAccount.new }
 

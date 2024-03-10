@@ -1,4 +1,4 @@
-require_relative '/Users/alex/workspace-3081/sa9-act2/Problem3/StringWrapper'
+require_relative '../lib/strw.rb'
 RSpec.describe StringWrapper do
   describe "#reverse" do
     it "reverses the string" do
